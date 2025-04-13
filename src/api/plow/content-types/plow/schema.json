@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plows",
+  "info": {
+    "singularName": "plow",
+    "pluralName": "plows",
+    "displayName": "plow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plowID": {
+      "type": "uid",
+      "required": true
+    },
+    "coords": {
+      "type": "json",
+      "required": true
+    },
+    "timeStarted": {
+      "type": "datetime"
+    }
+  }
+}

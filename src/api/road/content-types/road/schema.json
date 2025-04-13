@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roads",
+  "info": {
+    "singularName": "road",
+    "pluralName": "roads",
+    "displayName": "road"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "roadID": {
+      "type": "uid",
+      "required": true
+    },
+    "startCoords": {
+      "type": "json",
+      "required": true
+    },
+    "endCoords": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pins",
+  "info": {
+    "singularName": "pin",
+    "pluralName": "pins",
+    "displayName": "pin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coords": {
+      "type": "json",
+      "required": true
+    },
+    "dateAdded": {
+      "type": "datetime"
+    }
+  }
+}
